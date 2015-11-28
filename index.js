@@ -1,5 +1,7 @@
 var express = require('express'),
-    app = express();
+    app = express(),
+    cookieParser = require('cookie-parser'),
+    bodyParser = require('body-parser');
 
 
 // configuring middleware for express 
